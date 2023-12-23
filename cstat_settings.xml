@@ -1,0 +1,879 @@
+<cstat_settings xmlns="http://iar.com/cstat/settings">
+ <cstat_version>
+  1.2.13.219
+ </cstat_version>
+ <checks_tree>
+  <package name="MISRAC++2008" enabled="false">
+   <group name="MISRAC++2008-0-1" enabled="true">
+    <check name="MISRAC++2008-0-1-1" enabled="true"></check>
+    <check name="MISRAC++2008-0-1-11" enabled="true"></check>
+    <check name="MISRAC++2008-0-1-2_a" enabled="true"></check>
+    <check name="MISRAC++2008-0-1-2_b" enabled="true"></check>
+    <check name="MISRAC++2008-0-1-2_c" enabled="true"></check>
+    <check name="MISRAC++2008-0-1-3" enabled="true"></check>
+    <check name="MISRAC++2008-0-1-4" enabled="true"></check>
+    <check name="MISRAC++2008-0-1-6" enabled="true"></check>
+    <check name="MISRAC++2008-0-1-7" enabled="true"></check>
+    <check name="MISRAC++2008-0-1-8" enabled="false"></check>
+    <check name="MISRAC++2008-0-1-9" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-0-2" enabled="true">
+    <check name="MISRAC++2008-0-2-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-0-3" enabled="true">
+    <check name="MISRAC++2008-0-3-2" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-12-1" enabled="true">
+    <check name="MISRAC++2008-12-1-1_a" enabled="true"></check>
+    <check name="MISRAC++2008-12-1-1_b" enabled="true"></check>
+    <check name="MISRAC++2008-12-1-3" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-15-0" enabled="true">
+    <check name="MISRAC++2008-15-0-2" enabled="false"></check>
+   </group>
+   <group name="MISRAC++2008-15-1" enabled="true">
+    <check name="MISRAC++2008-15-1-2" enabled="true"></check>
+    <check name="MISRAC++2008-15-1-3" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-15-3" enabled="true">
+    <check name="MISRAC++2008-15-3-1" enabled="true"></check>
+    <check name="MISRAC++2008-15-3-2" enabled="false"></check>
+    <check name="MISRAC++2008-15-3-3" enabled="true"></check>
+    <check name="MISRAC++2008-15-3-4" enabled="true"></check>
+    <check name="MISRAC++2008-15-3-5" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-15-5" enabled="true">
+    <check name="MISRAC++2008-15-5-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-16-0" enabled="true">
+    <check name="MISRAC++2008-16-0-3" enabled="true"></check>
+    <check name="MISRAC++2008-16-0-4" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-16-2" enabled="true">
+    <check name="MISRAC++2008-16-2-2" enabled="true"></check>
+    <check name="MISRAC++2008-16-2-3" enabled="true"></check>
+    <check name="MISRAC++2008-16-2-4" enabled="true"></check>
+    <check name="MISRAC++2008-16-2-5" enabled="false"></check>
+   </group>
+   <group name="MISRAC++2008-16-3" enabled="true">
+    <check name="MISRAC++2008-16-3-1" enabled="true"></check>
+    <check name="MISRAC++2008-16-3-2" enabled="false"></check>
+   </group>
+   <group name="MISRAC++2008-17-0" enabled="true">
+    <check name="MISRAC++2008-17-0-1" enabled="true"></check>
+    <check name="MISRAC++2008-17-0-3" enabled="true"></check>
+    <check name="MISRAC++2008-17-0-5" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-18-0" enabled="true">
+    <check name="MISRAC++2008-18-0-1" enabled="true"></check>
+    <check name="MISRAC++2008-18-0-2" enabled="true"></check>
+    <check name="MISRAC++2008-18-0-3" enabled="true"></check>
+    <check name="MISRAC++2008-18-0-4" enabled="true"></check>
+    <check name="MISRAC++2008-18-0-5" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-18-2" enabled="true">
+    <check name="MISRAC++2008-18-2-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-18-4" enabled="true">
+    <check name="MISRAC++2008-18-4-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-18-7" enabled="true">
+    <check name="MISRAC++2008-18-7-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-19-3" enabled="true">
+    <check name="MISRAC++2008-19-3-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-2-10" enabled="true">
+    <check name="MISRAC++2008-2-10-2_a" enabled="true"></check>
+    <check name="MISRAC++2008-2-10-2_b" enabled="true"></check>
+    <check name="MISRAC++2008-2-10-2_c" enabled="true"></check>
+    <check name="MISRAC++2008-2-10-2_d" enabled="true"></check>
+    <check name="MISRAC++2008-2-10-3" enabled="true"></check>
+    <check name="MISRAC++2008-2-10-4" enabled="true"></check>
+    <check name="MISRAC++2008-2-10-5" enabled="false"></check>
+   </group>
+   <group name="MISRAC++2008-2-13" enabled="true">
+    <check name="MISRAC++2008-2-13-2" enabled="true"></check>
+    <check name="MISRAC++2008-2-13-3" enabled="true"></check>
+    <check name="MISRAC++2008-2-13-4_a" enabled="true"></check>
+    <check name="MISRAC++2008-2-13-4_b" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-2-3" enabled="true">
+    <check name="MISRAC++2008-2-3-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-2-7" enabled="true">
+    <check name="MISRAC++2008-2-7-1" enabled="true"></check>
+    <check name="MISRAC++2008-2-7-2" enabled="true"></check>
+    <check name="MISRAC++2008-2-7-3" enabled="false"></check>
+   </group>
+   <group name="MISRAC++2008-27-0" enabled="true">
+    <check name="MISRAC++2008-27-0-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-3-1" enabled="true">
+    <check name="MISRAC++2008-3-1-1" enabled="true"></check>
+    <check name="MISRAC++2008-3-1-3" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-3-9" enabled="true">
+    <check name="MISRAC++2008-3-9-2" enabled="false"></check>
+    <check name="MISRAC++2008-3-9-3" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-4-5" enabled="true">
+    <check name="MISRAC++2008-4-5-1" enabled="true"></check>
+    <check name="MISRAC++2008-4-5-2" enabled="true"></check>
+    <check name="MISRAC++2008-4-5-3" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-5-0" enabled="true">
+    <check name="MISRAC++2008-5-0-10" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-13_a" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-13_b" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-13_c" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-13_d" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-14" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-15_a" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-15_b" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-16_a" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-16_b" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-16_c" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-16_d" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-16_e" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-16_f" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-19" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-1_a" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-1_b" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-1_c" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-2" enabled="false"></check>
+    <check name="MISRAC++2008-5-0-21" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-3" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-4" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-5" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-6" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-7" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-8" enabled="true"></check>
+    <check name="MISRAC++2008-5-0-9" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-5-14" enabled="true">
+    <check name="MISRAC++2008-5-14-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-5-18" enabled="true">
+    <check name="MISRAC++2008-5-18-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-5-19" enabled="true">
+    <check name="MISRAC++2008-5-19-1" enabled="false"></check>
+   </group>
+   <group name="MISRAC++2008-5-2" enabled="true">
+    <check name="MISRAC++2008-5-2-10" enabled="false"></check>
+    <check name="MISRAC++2008-5-2-11_a" enabled="true"></check>
+    <check name="MISRAC++2008-5-2-11_b" enabled="true"></check>
+    <check name="MISRAC++2008-5-2-4" enabled="true"></check>
+    <check name="MISRAC++2008-5-2-5" enabled="true"></check>
+    <check name="MISRAC++2008-5-2-6" enabled="true"></check>
+    <check name="MISRAC++2008-5-2-7" enabled="true"></check>
+    <check name="MISRAC++2008-5-2-9" enabled="false"></check>
+   </group>
+   <group name="MISRAC++2008-5-3" enabled="true">
+    <check name="MISRAC++2008-5-3-1" enabled="true"></check>
+    <check name="MISRAC++2008-5-3-2_a" enabled="true"></check>
+    <check name="MISRAC++2008-5-3-2_b" enabled="true"></check>
+    <check name="MISRAC++2008-5-3-3" enabled="true"></check>
+    <check name="MISRAC++2008-5-3-4" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-5-8" enabled="true">
+    <check name="MISRAC++2008-5-8-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-6-2" enabled="true">
+    <check name="MISRAC++2008-6-2-1" enabled="true"></check>
+    <check name="MISRAC++2008-6-2-2" enabled="true"></check>
+    <check name="MISRAC++2008-6-2-3" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-6-3" enabled="true">
+    <check name="MISRAC++2008-6-3-1_a" enabled="true"></check>
+    <check name="MISRAC++2008-6-3-1_b" enabled="true"></check>
+    <check name="MISRAC++2008-6-3-1_c" enabled="true"></check>
+    <check name="MISRAC++2008-6-3-1_d" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-6-4" enabled="true">
+    <check name="MISRAC++2008-6-4-1" enabled="true"></check>
+    <check name="MISRAC++2008-6-4-2" enabled="true"></check>
+    <check name="MISRAC++2008-6-4-3" enabled="true"></check>
+    <check name="MISRAC++2008-6-4-4" enabled="true"></check>
+    <check name="MISRAC++2008-6-4-5" enabled="true"></check>
+    <check name="MISRAC++2008-6-4-6" enabled="true"></check>
+    <check name="MISRAC++2008-6-4-7" enabled="true"></check>
+    <check name="MISRAC++2008-6-4-8" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-6-5" enabled="true">
+    <check name="MISRAC++2008-6-5-1_a" enabled="true"></check>
+    <check name="MISRAC++2008-6-5-2" enabled="true"></check>
+    <check name="MISRAC++2008-6-5-3" enabled="true"></check>
+    <check name="MISRAC++2008-6-5-4" enabled="true"></check>
+    <check name="MISRAC++2008-6-5-6" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-6-6" enabled="true">
+    <check name="MISRAC++2008-6-6-1" enabled="true"></check>
+    <check name="MISRAC++2008-6-6-2" enabled="true"></check>
+    <check name="MISRAC++2008-6-6-4" enabled="true"></check>
+    <check name="MISRAC++2008-6-6-5" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-7-1" enabled="true">
+    <check name="MISRAC++2008-7-1-1" enabled="true"></check>
+    <check name="MISRAC++2008-7-1-2" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-7-2" enabled="true">
+    <check name="MISRAC++2008-7-2-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-7-4" enabled="true">
+    <check name="MISRAC++2008-7-4-3" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-7-5" enabled="true">
+    <check name="MISRAC++2008-7-5-1_a" enabled="true"></check>
+    <check name="MISRAC++2008-7-5-1_b" enabled="true"></check>
+    <check name="MISRAC++2008-7-5-2_a" enabled="true"></check>
+    <check name="MISRAC++2008-7-5-2_b" enabled="true"></check>
+    <check name="MISRAC++2008-7-5-2_c" enabled="true"></check>
+    <check name="MISRAC++2008-7-5-2_d" enabled="true"></check>
+    <check name="MISRAC++2008-7-5-4_a" enabled="false"></check>
+    <check name="MISRAC++2008-7-5-4_b" enabled="false"></check>
+   </group>
+   <group name="MISRAC++2008-8-0" enabled="true">
+    <check name="MISRAC++2008-8-0-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-8-4" enabled="true">
+    <check name="MISRAC++2008-8-4-1" enabled="true"></check>
+    <check name="MISRAC++2008-8-4-3" enabled="true"></check>
+    <check name="MISRAC++2008-8-4-4" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-8-5" enabled="true">
+    <check name="MISRAC++2008-8-5-1_a" enabled="true"></check>
+    <check name="MISRAC++2008-8-5-1_b" enabled="true"></check>
+    <check name="MISRAC++2008-8-5-1_c" enabled="true"></check>
+    <check name="MISRAC++2008-8-5-2" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-9-3" enabled="true">
+    <check name="MISRAC++2008-9-3-1" enabled="true"></check>
+    <check name="MISRAC++2008-9-3-2" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-9-5" enabled="true">
+    <check name="MISRAC++2008-9-5-1" enabled="true"></check>
+   </group>
+   <group name="MISRAC++2008-9-6" enabled="true">
+    <check name="MISRAC++2008-9-6-2" enabled="true"></check>
+    <check name="MISRAC++2008-9-6-3" enabled="true"></check>
+    <check name="MISRAC++2008-9-6-4" enabled="true"></check>
+   </group>
+  </package>
+  <package name="MISRAC2004" enabled="false">
+   <group name="MISRAC2004-10" enabled="true">
+    <check name="MISRAC2004-10.1_a" enabled="true"></check>
+    <check name="MISRAC2004-10.1_b" enabled="true"></check>
+    <check name="MISRAC2004-10.1_c" enabled="true"></check>
+    <check name="MISRAC2004-10.1_d" enabled="true"></check>
+    <check name="MISRAC2004-10.2_a" enabled="true"></check>
+    <check name="MISRAC2004-10.2_b" enabled="true"></check>
+    <check name="MISRAC2004-10.2_c" enabled="true"></check>
+    <check name="MISRAC2004-10.2_d" enabled="true"></check>
+    <check name="MISRAC2004-10.3" enabled="true"></check>
+    <check name="MISRAC2004-10.4" enabled="true"></check>
+    <check name="MISRAC2004-10.5" enabled="true"></check>
+    <check name="MISRAC2004-10.6" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-11" enabled="true">
+    <check name="MISRAC2004-11.1" enabled="true"></check>
+    <check name="MISRAC2004-11.3" enabled="false"></check>
+    <check name="MISRAC2004-11.4" enabled="false"></check>
+    <check name="MISRAC2004-11.5" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-12" enabled="true">
+    <check name="MISRAC2004-12.1" enabled="false"></check>
+    <check name="MISRAC2004-12.10" enabled="true"></check>
+    <check name="MISRAC2004-12.11" enabled="false"></check>
+    <check name="MISRAC2004-12.12_a" enabled="true"></check>
+    <check name="MISRAC2004-12.12_b" enabled="true"></check>
+    <check name="MISRAC2004-12.13" enabled="false"></check>
+    <check name="MISRAC2004-12.2_a" enabled="true"></check>
+    <check name="MISRAC2004-12.2_b" enabled="true"></check>
+    <check name="MISRAC2004-12.2_c" enabled="true"></check>
+    <check name="MISRAC2004-12.3" enabled="true"></check>
+    <check name="MISRAC2004-12.4" enabled="true"></check>
+    <check name="MISRAC2004-12.6_a" enabled="false"></check>
+    <check name="MISRAC2004-12.6_b" enabled="false"></check>
+    <check name="MISRAC2004-12.7" enabled="true"></check>
+    <check name="MISRAC2004-12.8" enabled="true"></check>
+    <check name="MISRAC2004-12.9" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-13" enabled="true">
+    <check name="MISRAC2004-13.1" enabled="true"></check>
+    <check name="MISRAC2004-13.2_a" enabled="false"></check>
+    <check name="MISRAC2004-13.2_b" enabled="false"></check>
+    <check name="MISRAC2004-13.2_c" enabled="false"></check>
+    <check name="MISRAC2004-13.2_d" enabled="false"></check>
+    <check name="MISRAC2004-13.2_e" enabled="false"></check>
+    <check name="MISRAC2004-13.3" enabled="true"></check>
+    <check name="MISRAC2004-13.4" enabled="true"></check>
+    <check name="MISRAC2004-13.5" enabled="true"></check>
+    <check name="MISRAC2004-13.6" enabled="true"></check>
+    <check name="MISRAC2004-13.7_a" enabled="true"></check>
+    <check name="MISRAC2004-13.7_b" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-14" enabled="true">
+    <check name="MISRAC2004-14.1" enabled="true"></check>
+    <check name="MISRAC2004-14.10" enabled="true"></check>
+    <check name="MISRAC2004-14.2" enabled="true"></check>
+    <check name="MISRAC2004-14.3" enabled="true"></check>
+    <check name="MISRAC2004-14.4" enabled="true"></check>
+    <check name="MISRAC2004-14.5" enabled="true"></check>
+    <check name="MISRAC2004-14.6" enabled="true"></check>
+    <check name="MISRAC2004-14.7" enabled="true"></check>
+    <check name="MISRAC2004-14.8_a" enabled="true"></check>
+    <check name="MISRAC2004-14.8_b" enabled="true"></check>
+    <check name="MISRAC2004-14.8_c" enabled="true"></check>
+    <check name="MISRAC2004-14.8_d" enabled="true"></check>
+    <check name="MISRAC2004-14.9" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-15" enabled="true">
+    <check name="MISRAC2004-15.0" enabled="true"></check>
+    <check name="MISRAC2004-15.1" enabled="true"></check>
+    <check name="MISRAC2004-15.2" enabled="true"></check>
+    <check name="MISRAC2004-15.3" enabled="true"></check>
+    <check name="MISRAC2004-15.4" enabled="true"></check>
+    <check name="MISRAC2004-15.5" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-16" enabled="true">
+    <check name="MISRAC2004-16.1" enabled="true"></check>
+    <check name="MISRAC2004-16.10" enabled="true"></check>
+    <check name="MISRAC2004-16.2_a" enabled="true"></check>
+    <check name="MISRAC2004-16.2_b" enabled="true"></check>
+    <check name="MISRAC2004-16.3" enabled="true"></check>
+    <check name="MISRAC2004-16.5" enabled="true"></check>
+    <check name="MISRAC2004-16.7" enabled="true"></check>
+    <check name="MISRAC2004-16.8" enabled="true"></check>
+    <check name="MISRAC2004-16.9" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-17" enabled="true">
+    <check name="MISRAC2004-17.1_a" enabled="true"></check>
+    <check name="MISRAC2004-17.1_b" enabled="true"></check>
+    <check name="MISRAC2004-17.1_c" enabled="true"></check>
+    <check name="MISRAC2004-17.4_a" enabled="true"></check>
+    <check name="MISRAC2004-17.4_b" enabled="true"></check>
+    <check name="MISRAC2004-17.5" enabled="true"></check>
+    <check name="MISRAC2004-17.6_a" enabled="true"></check>
+    <check name="MISRAC2004-17.6_b" enabled="true"></check>
+    <check name="MISRAC2004-17.6_c" enabled="true"></check>
+    <check name="MISRAC2004-17.6_d" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-18" enabled="true">
+    <check name="MISRAC2004-18.1" enabled="true"></check>
+    <check name="MISRAC2004-18.2" enabled="true"></check>
+    <check name="MISRAC2004-18.4" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-19" enabled="true">
+    <check name="MISRAC2004-19.12" enabled="true"></check>
+    <check name="MISRAC2004-19.13" enabled="false"></check>
+    <check name="MISRAC2004-19.15" enabled="true"></check>
+    <check name="MISRAC2004-19.2" enabled="false"></check>
+    <check name="MISRAC2004-19.6" enabled="true"></check>
+    <check name="MISRAC2004-19.7" enabled="false"></check>
+   </group>
+   <group name="MISRAC2004-2" enabled="true">
+    <check name="MISRAC2004-2.1" enabled="true"></check>
+    <check name="MISRAC2004-2.2" enabled="true"></check>
+    <check name="MISRAC2004-2.3" enabled="true"></check>
+    <check name="MISRAC2004-2.4" enabled="false"></check>
+   </group>
+   <group name="MISRAC2004-20" enabled="true">
+    <check name="MISRAC2004-20.1" enabled="true"></check>
+    <check name="MISRAC2004-20.10" enabled="true"></check>
+    <check name="MISRAC2004-20.11" enabled="true"></check>
+    <check name="MISRAC2004-20.12" enabled="true"></check>
+    <check name="MISRAC2004-20.4" enabled="true"></check>
+    <check name="MISRAC2004-20.5" enabled="true"></check>
+    <check name="MISRAC2004-20.6" enabled="true"></check>
+    <check name="MISRAC2004-20.7" enabled="true"></check>
+    <check name="MISRAC2004-20.8" enabled="true"></check>
+    <check name="MISRAC2004-20.9" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-4" enabled="true">
+    <check name="MISRAC2004-4.2" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-5" enabled="true">
+    <check name="MISRAC2004-5.2_a" enabled="true"></check>
+    <check name="MISRAC2004-5.2_b" enabled="true"></check>
+    <check name="MISRAC2004-5.2_c" enabled="true"></check>
+    <check name="MISRAC2004-5.3" enabled="true"></check>
+    <check name="MISRAC2004-5.4" enabled="true"></check>
+    <check name="MISRAC2004-5.5" enabled="false"></check>
+   </group>
+   <group name="MISRAC2004-6" enabled="true">
+    <check name="MISRAC2004-6.1" enabled="true"></check>
+    <check name="MISRAC2004-6.3" enabled="false"></check>
+    <check name="MISRAC2004-6.4" enabled="true"></check>
+    <check name="MISRAC2004-6.5" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-7" enabled="true">
+    <check name="MISRAC2004-7.1" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-8" enabled="true">
+    <check name="MISRAC2004-8.1" enabled="true"></check>
+    <check name="MISRAC2004-8.12" enabled="true"></check>
+    <check name="MISRAC2004-8.2" enabled="true"></check>
+    <check name="MISRAC2004-8.5_a" enabled="true"></check>
+    <check name="MISRAC2004-8.5_b" enabled="true"></check>
+   </group>
+   <group name="MISRAC2004-9" enabled="true">
+    <check name="MISRAC2004-9.1_a" enabled="true"></check>
+    <check name="MISRAC2004-9.1_b" enabled="true"></check>
+    <check name="MISRAC2004-9.1_c" enabled="true"></check>
+    <check name="MISRAC2004-9.2" enabled="true"></check>
+   </group>
+  </package>
+  <package name="MISRAC2012" enabled="false">
+   <group name="MISRAC2012-Dir-4" enabled="true">
+    <check name="MISRAC2012-Dir-4.10" enabled="true"></check>
+    <check name="MISRAC2012-Dir-4.3" enabled="true"></check>
+    <check name="MISRAC2012-Dir-4.4" enabled="false"></check>
+    <check name="MISRAC2012-Dir-4.6_a" enabled="false"></check>
+    <check name="MISRAC2012-Dir-4.6_b" enabled="false"></check>
+    <check name="MISRAC2012-Dir-4.9" enabled="false"></check>
+   </group>
+   <group name="MISRAC2012-Rule-1" enabled="true">
+    <check name="MISRAC2012-Rule-1.3_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-1.3_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-1.3_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-1.3_d" enabled="true"></check>
+    <check name="MISRAC2012-Rule-1.3_e" enabled="true"></check>
+    <check name="MISRAC2012-Rule-1.3_f" enabled="true"></check>
+    <check name="MISRAC2012-Rule-1.3_g" enabled="true"></check>
+    <check name="MISRAC2012-Rule-1.3_h" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-10" enabled="true">
+    <check name="MISRAC2012-Rule-10.1_R2" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.1_R3" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.1_R4" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.1_R5" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.1_R6" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.1_R7" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.1_R8" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.2" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.3" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.4" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.6" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.7" enabled="true"></check>
+    <check name="MISRAC2012-Rule-10.8" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-11" enabled="true">
+    <check name="MISRAC2012-Rule-11.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-11.3" enabled="true"></check>
+    <check name="MISRAC2012-Rule-11.4" enabled="false"></check>
+    <check name="MISRAC2012-Rule-11.7" enabled="true"></check>
+    <check name="MISRAC2012-Rule-11.8" enabled="true"></check>
+    <check name="MISRAC2012-Rule-11.9" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-12" enabled="true">
+    <check name="MISRAC2012-Rule-12.1" enabled="false"></check>
+    <check name="MISRAC2012-Rule-12.2" enabled="true"></check>
+    <check name="MISRAC2012-Rule-12.3" enabled="false"></check>
+    <check name="MISRAC2012-Rule-12.4" enabled="false"></check>
+   </group>
+   <group name="MISRAC2012-Rule-13" enabled="true">
+    <check name="MISRAC2012-Rule-13.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-13.2_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-13.2_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-13.2_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-13.3" enabled="false"></check>
+    <check name="MISRAC2012-Rule-13.4_a" enabled="false"></check>
+    <check name="MISRAC2012-Rule-13.4_b" enabled="false"></check>
+    <check name="MISRAC2012-Rule-13.5" enabled="true"></check>
+    <check name="MISRAC2012-Rule-13.6" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-14" enabled="true">
+    <check name="MISRAC2012-Rule-14.1_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-14.1_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-14.2" enabled="true"></check>
+    <check name="MISRAC2012-Rule-14.3_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-14.3_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-14.4_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-14.4_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-14.4_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-14.4_d" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-15" enabled="true">
+    <check name="MISRAC2012-Rule-15.1" enabled="false"></check>
+    <check name="MISRAC2012-Rule-15.2" enabled="true"></check>
+    <check name="MISRAC2012-Rule-15.3" enabled="true"></check>
+    <check name="MISRAC2012-Rule-15.4" enabled="false"></check>
+    <check name="MISRAC2012-Rule-15.5" enabled="false"></check>
+    <check name="MISRAC2012-Rule-15.6_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-15.6_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-15.6_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-15.6_d" enabled="true"></check>
+    <check name="MISRAC2012-Rule-15.6_e" enabled="true"></check>
+    <check name="MISRAC2012-Rule-15.7" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-16" enabled="true">
+    <check name="MISRAC2012-Rule-16.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-16.2" enabled="true"></check>
+    <check name="MISRAC2012-Rule-16.3" enabled="true"></check>
+    <check name="MISRAC2012-Rule-16.4" enabled="true"></check>
+    <check name="MISRAC2012-Rule-16.5" enabled="true"></check>
+    <check name="MISRAC2012-Rule-16.6" enabled="true"></check>
+    <check name="MISRAC2012-Rule-16.7" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-17" enabled="true">
+    <check name="MISRAC2012-Rule-17.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-17.2_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-17.2_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-17.3" enabled="true"></check>
+    <check name="MISRAC2012-Rule-17.4" enabled="true"></check>
+    <check name="MISRAC2012-Rule-17.6" enabled="true"></check>
+    <check name="MISRAC2012-Rule-17.7" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-18" enabled="true">
+    <check name="MISRAC2012-Rule-18.1_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-18.1_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-18.1_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-18.1_d" enabled="true"></check>
+    <check name="MISRAC2012-Rule-18.5" enabled="false"></check>
+    <check name="MISRAC2012-Rule-18.6_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-18.6_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-18.6_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-18.6_d" enabled="true"></check>
+    <check name="MISRAC2012-Rule-18.7" enabled="true"></check>
+    <check name="MISRAC2012-Rule-18.8" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-19" enabled="true">
+    <check name="MISRAC2012-Rule-19.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-19.2" enabled="false"></check>
+   </group>
+   <group name="MISRAC2012-Rule-2" enabled="true">
+    <check name="MISRAC2012-Rule-2.1_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-2.1_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-2.2_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-2.2_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-2.7" enabled="false"></check>
+   </group>
+   <group name="MISRAC2012-Rule-20" enabled="true">
+    <check name="MISRAC2012-Rule-20.10" enabled="false"></check>
+    <check name="MISRAC2012-Rule-20.2" enabled="true"></check>
+    <check name="MISRAC2012-Rule-20.4_c89" enabled="true"></check>
+    <check name="MISRAC2012-Rule-20.4_c99" enabled="true"></check>
+    <check name="MISRAC2012-Rule-20.5" enabled="false"></check>
+   </group>
+   <group name="MISRAC2012-Rule-21" enabled="true">
+    <check name="MISRAC2012-Rule-21.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.10" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.11" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.2" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.3" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.4" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.5" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.6" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.7" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.8" enabled="true"></check>
+    <check name="MISRAC2012-Rule-21.9" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-22" enabled="true">
+    <check name="MISRAC2012-Rule-22.1_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-22.1_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-22.2_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-22.2_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-22.2_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-22.4" enabled="true"></check>
+    <check name="MISRAC2012-Rule-22.5_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-22.5_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-22.6" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-3" enabled="true">
+    <check name="MISRAC2012-Rule-3.1" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-4" enabled="true">
+    <check name="MISRAC2012-Rule-4.2" enabled="false"></check>
+   </group>
+   <group name="MISRAC2012-Rule-5" enabled="true">
+    <check name="MISRAC2012-Rule-5.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.3_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.3_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.3_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.4_c89" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.4_c99" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.5_c89" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.5_c99" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.6" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.7" enabled="true"></check>
+    <check name="MISRAC2012-Rule-5.8" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-6" enabled="true">
+    <check name="MISRAC2012-Rule-6.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-6.2" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-7" enabled="true">
+    <check name="MISRAC2012-Rule-7.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-7.2" enabled="true"></check>
+    <check name="MISRAC2012-Rule-7.3" enabled="true"></check>
+    <check name="MISRAC2012-Rule-7.4_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-7.4_b" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-8" enabled="true">
+    <check name="MISRAC2012-Rule-8.1" enabled="true"></check>
+    <check name="MISRAC2012-Rule-8.10" enabled="true"></check>
+    <check name="MISRAC2012-Rule-8.11" enabled="false"></check>
+    <check name="MISRAC2012-Rule-8.14" enabled="true"></check>
+    <check name="MISRAC2012-Rule-8.2_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-8.2_b" enabled="true"></check>
+   </group>
+   <group name="MISRAC2012-Rule-9" enabled="true">
+    <check name="MISRAC2012-Rule-9.1_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-9.1_b" enabled="true"></check>
+    <check name="MISRAC2012-Rule-9.1_c" enabled="true"></check>
+    <check name="MISRAC2012-Rule-9.1_d" enabled="true"></check>
+    <check name="MISRAC2012-Rule-9.1_e" enabled="true"></check>
+    <check name="MISRAC2012-Rule-9.1_f" enabled="true"></check>
+    <check name="MISRAC2012-Rule-9.3" enabled="true"></check>
+    <check name="MISRAC2012-Rule-9.5_a" enabled="true"></check>
+    <check name="MISRAC2012-Rule-9.5_b" enabled="true"></check>
+   </group>
+  </package>
+  <package name="STDCHECKS" enabled="true">
+   <group name="ARR" enabled="true">
+    <check name="ARR-inv-index" enabled="true"></check>
+    <check name="ARR-inv-index-pos" enabled="true"></check>
+    <check name="ARR-inv-index-ptr" enabled="true"></check>
+    <check name="ARR-inv-index-ptr-pos" enabled="true"></check>
+    <check name="ARR-neg-index" enabled="true"></check>
+    <check name="ARR-uninit-index" enabled="true"></check>
+   </group>
+   <group name="ATH" enabled="true">
+    <check name="ATH-cmp-float" enabled="true"></check>
+    <check name="ATH-cmp-unsign-neg" enabled="true"></check>
+    <check name="ATH-cmp-unsign-pos" enabled="true"></check>
+    <check name="ATH-div-0" enabled="true"></check>
+    <check name="ATH-div-0-assign" enabled="true"></check>
+    <check name="ATH-div-0-cmp-aft" enabled="true"></check>
+    <check name="ATH-div-0-cmp-bef" enabled="true"></check>
+    <check name="ATH-div-0-interval" enabled="true"></check>
+    <check name="ATH-div-0-pos" enabled="true"></check>
+    <check name="ATH-div-0-unchk-global" enabled="true"></check>
+    <check name="ATH-div-0-unchk-local" enabled="true"></check>
+    <check name="ATH-div-0-unchk-param" enabled="true"></check>
+    <check name="ATH-inc-bool" enabled="true"></check>
+    <check name="ATH-malloc-overrun" enabled="true"></check>
+    <check name="ATH-neg-check-nonneg" enabled="true"></check>
+    <check name="ATH-neg-check-pos" enabled="true"></check>
+    <check name="ATH-new-overrun" enabled="true"></check>
+    <check name="ATH-overflow" enabled="true"></check>
+    <check name="ATH-overflow-cast" enabled="false"></check>
+    <check name="ATH-shift-bounds" enabled="true"></check>
+    <check name="ATH-shift-neg" enabled="true"></check>
+    <check name="ATH-sizeof-by-sizeof" enabled="true"></check>
+   </group>
+   <group name="CAST" enabled="true">
+    <check name="CAST-old-style" enabled="false"></check>
+   </group>
+   <group name="CATCH" enabled="true">
+    <check name="CATCH-object-slicing" enabled="true"></check>
+    <check name="CATCH-xtor-bad-member" enabled="false"></check>
+   </group>
+   <group name="COMMA" enabled="true">
+    <check name="COMMA-overload" enabled="false"></check>
+   </group>
+   <group name="COMMENT" enabled="true">
+    <check name="COMMENT-nested" enabled="true"></check>
+   </group>
+   <group name="CONST" enabled="true">
+    <check name="CONST-local" enabled="false"></check>
+    <check name="CONST-member-ret" enabled="true"></check>
+    <check name="CONST-param" enabled="false"></check>
+   </group>
+   <group name="COP" enabled="true">
+    <check name="COP-alloc-ctor" enabled="true"></check>
+    <check name="COP-assign-op" enabled="true"></check>
+    <check name="COP-assign-op-ret" enabled="true"></check>
+    <check name="COP-assign-op-self" enabled="true"></check>
+    <check name="COP-copy-ctor" enabled="true"></check>
+    <check name="COP-dealloc-dtor" enabled="true"></check>
+    <check name="COP-dtor" enabled="true"></check>
+    <check name="COP-dtor-throw" enabled="true"></check>
+    <check name="COP-init-order" enabled="true"></check>
+    <check name="COP-init-uninit" enabled="true"></check>
+    <check name="COP-member-uninit" enabled="true"></check>
+   </group>
+   <group name="CPU" enabled="true">
+    <check name="CPU-ctor-call-virt" enabled="true"></check>
+    <check name="CPU-ctor-implicit" enabled="false"></check>
+    <check name="CPU-delete-throw" enabled="true"></check>
+    <check name="CPU-delete-void" enabled="true"></check>
+    <check name="CPU-dtor-call-virt" enabled="true"></check>
+    <check name="CPU-malloc-class" enabled="true"></check>
+    <check name="CPU-nonvirt-dtor" enabled="true"></check>
+    <check name="CPU-return-ref-to-class-data" enabled="true"></check>
+   </group>
+   <group name="DECL" enabled="true">
+    <check name="DECL-implicit-int" enabled="false"></check>
+   </group>
+   <group name="DEFINE" enabled="true">
+    <check name="DEFINE-hash-multiple" enabled="true"></check>
+   </group>
+   <group name="ENUM" enabled="true">
+    <check name="ENUM-bounds" enabled="false"></check>
+   </group>
+   <group name="EXP" enabled="true">
+    <check name="EXP-cond-assign" enabled="true"></check>
+    <check name="EXP-dangling-else" enabled="true"></check>
+    <check name="EXP-loop-exit" enabled="true"></check>
+    <check name="EXP-main-ret-int" enabled="false"></check>
+    <check name="EXP-null-stmt" enabled="false"></check>
+    <check name="EXP-stray-semicolon" enabled="false"></check>
+   </group>
+   <group name="EXPR" enabled="true">
+    <check name="EXPR-const-overflow" enabled="true"></check>
+   </group>
+   <group name="FUNC" enabled="true">
+    <check name="FUNC-implicit-decl" enabled="false"></check>
+    <check name="FUNC-unprototyped-all" enabled="false"></check>
+    <check name="FUNC-unprototyped-used" enabled="true"></check>
+   </group>
+   <group name="INCLUDE" enabled="true">
+    <check name="INCLUDE-c-file" enabled="false"></check>
+   </group>
+   <group name="INT" enabled="true">
+    <check name="INT-use-signed-as-unsigned" enabled="true"></check>
+    <check name="INT-use-signed-as-unsigned-pos" enabled="false"></check>
+   </group>
+   <group name="ITR" enabled="true">
+    <check name="ITR-end-cmp-aft" enabled="true"></check>
+    <check name="ITR-end-cmp-bef" enabled="true"></check>
+    <check name="ITR-invalidated" enabled="true"></check>
+    <check name="ITR-mismatch-alg" enabled="true"></check>
+    <check name="ITR-store" enabled="true"></check>
+    <check name="ITR-uninit" enabled="true"></check>
+   </group>
+   <group name="LIB" enabled="true">
+    <check name="LIB-bsearch-overrun" enabled="false"></check>
+    <check name="LIB-bsearch-overrun-pos" enabled="false"></check>
+    <check name="LIB-buf-size" enabled="false"></check>
+    <check name="LIB-fn-unsafe" enabled="false"></check>
+    <check name="LIB-fread-overrun" enabled="true"></check>
+    <check name="LIB-fread-overrun-pos" enabled="false"></check>
+    <check name="LIB-memchr-overrun" enabled="true"></check>
+    <check name="LIB-memchr-overrun-pos" enabled="false"></check>
+    <check name="LIB-memcpy-overrun" enabled="true"></check>
+    <check name="LIB-memcpy-overrun-pos" enabled="false"></check>
+    <check name="LIB-memset-overrun" enabled="true"></check>
+    <check name="LIB-memset-overrun-pos" enabled="false"></check>
+    <check name="LIB-putenv" enabled="false"></check>
+    <check name="LIB-qsort-overrun" enabled="false"></check>
+    <check name="LIB-qsort-overrun-pos" enabled="false"></check>
+    <check name="LIB-return-const" enabled="true"></check>
+    <check name="LIB-return-error" enabled="true"></check>
+    <check name="LIB-return-leak" enabled="true"></check>
+    <check name="LIB-return-neg" enabled="true"></check>
+    <check name="LIB-return-null" enabled="true"></check>
+    <check name="LIB-sprintf-overrun" enabled="false"></check>
+    <check name="LIB-std-sort-overrun" enabled="true"></check>
+    <check name="LIB-std-sort-overrun-pos" enabled="false"></check>
+    <check name="LIB-strcat-overrun" enabled="true"></check>
+    <check name="LIB-strcat-overrun-pos" enabled="false"></check>
+    <check name="LIB-strcpy-overrun" enabled="true"></check>
+    <check name="LIB-strcpy-overrun-pos" enabled="false"></check>
+    <check name="LIB-strncat-overrun" enabled="true"></check>
+    <check name="LIB-strncat-overrun-pos" enabled="false"></check>
+    <check name="LIB-strncmp-overrun" enabled="true"></check>
+    <check name="LIB-strncmp-overrun-pos" enabled="false"></check>
+    <check name="LIB-strncpy-overrun" enabled="true"></check>
+    <check name="LIB-strncpy-overrun-pos" enabled="false"></check>
+   </group>
+   <group name="LOGIC" enabled="true">
+    <check name="LOGIC-overload" enabled="false"></check>
+   </group>
+   <group name="PTR" enabled="true">
+    <check name="PTR-arith-field" enabled="true"></check>
+    <check name="PTR-arith-stack" enabled="true"></check>
+    <check name="PTR-arith-var" enabled="true"></check>
+    <check name="PTR-cmp-str-lit" enabled="true"></check>
+    <check name="PTR-null-assign" enabled="true"></check>
+    <check name="PTR-null-assign-fun-pos" enabled="true"></check>
+    <check name="PTR-null-assign-pos" enabled="true"></check>
+    <check name="PTR-null-cmp-aft" enabled="true"></check>
+    <check name="PTR-null-cmp-bef" enabled="true"></check>
+    <check name="PTR-null-cmp-bef-fun" enabled="true"></check>
+    <check name="PTR-null-fun-pos" enabled="true"></check>
+    <check name="PTR-null-literal-pos" enabled="true"></check>
+    <check name="PTR-overload" enabled="false"></check>
+    <check name="PTR-singleton-arith" enabled="true"></check>
+    <check name="PTR-singleton-arith-pos" enabled="true"></check>
+    <check name="PTR-unchk-param" enabled="false"></check>
+    <check name="PTR-unchk-param-some" enabled="true"></check>
+    <check name="PTR-uninit" enabled="true"></check>
+    <check name="PTR-uninit-pos" enabled="true"></check>
+   </group>
+   <group name="RED" enabled="true">
+    <check name="RED-case-reach" enabled="false"></check>
+    <check name="RED-cmp-always" enabled="false"></check>
+    <check name="RED-cmp-never" enabled="false"></check>
+    <check name="RED-cond-always" enabled="false"></check>
+    <check name="RED-cond-const" enabled="false"></check>
+    <check name="RED-cond-const-assign" enabled="true"></check>
+    <check name="RED-cond-const-expr" enabled="false"></check>
+    <check name="RED-cond-never" enabled="false"></check>
+    <check name="RED-dead" enabled="true"></check>
+    <check name="RED-expr" enabled="false"></check>
+    <check name="RED-func-no-effect" enabled="false"></check>
+    <check name="RED-local-hides-global" enabled="true"></check>
+    <check name="RED-local-hides-local" enabled="true"></check>
+    <check name="RED-local-hides-member" enabled="true"></check>
+    <check name="RED-local-hides-param" enabled="true"></check>
+    <check name="RED-no-effect" enabled="false"></check>
+    <check name="RED-self-assign" enabled="true"></check>
+    <check name="RED-unused-assign" enabled="true"></check>
+    <check name="RED-unused-param" enabled="false"></check>
+    <check name="RED-unused-return-val" enabled="false"></check>
+    <check name="RED-unused-val" enabled="false"></check>
+    <check name="RED-unused-var-all" enabled="true"></check>
+   </group>
+   <group name="RESOURCE" enabled="true">
+    <check name="RESOURCE-deref-file" enabled="false"></check>
+    <check name="RESOURCE-double-close" enabled="true"></check>
+    <check name="RESOURCE-file-no-close-all" enabled="true"></check>
+    <check name="RESOURCE-file-pos-neg" enabled="false"></check>
+    <check name="RESOURCE-file-use-after-close" enabled="true"></check>
+    <check name="RESOURCE-implicit-deref-file" enabled="false"></check>
+    <check name="RESOURCE-write-ronly-file" enabled="true"></check>
+   </group>
+   <group name="SIZEOF" enabled="true">
+    <check name="SIZEOF-side-effect" enabled="true"></check>
+   </group>
+   <group name="SPC" enabled="true">
+    <check name="SPC-init-list" enabled="false"></check>
+    <check name="SPC-order" enabled="true"></check>
+    <check name="SPC-return" enabled="true"></check>
+    <check name="SPC-uninit-arr-all" enabled="true"></check>
+    <check name="SPC-uninit-struct" enabled="true"></check>
+    <check name="SPC-uninit-struct-field" enabled="true"></check>
+    <check name="SPC-uninit-struct-field-heap" enabled="true"></check>
+    <check name="SPC-uninit-var-all" enabled="true"></check>
+    <check name="SPC-uninit-var-some" enabled="true"></check>
+    <check name="SPC-volatile-reads" enabled="false"></check>
+    <check name="SPC-volatile-writes" enabled="false"></check>
+   </group>
+   <group name="STR" enabled="true">
+    <check name="STR-trigraph" enabled="true"></check>
+   </group>
+   <group name="STRUCT" enabled="true">
+    <check name="STRUCT-signed-bit" enabled="false"></check>
+   </group>
+   <group name="SWITCH" enabled="true">
+    <check name="SWITCH-fall-through" enabled="true"></check>
+   </group>
+   <group name="THROW" enabled="true">
+    <check name="THROW-empty" enabled="false"></check>
+    <check name="THROW-main" enabled="false"></check>
+    <check name="THROW-null" enabled="true"></check>
+    <check name="THROW-ptr" enabled="true"></check>
+    <check name="THROW-static" enabled="true"></check>
+    <check name="THROW-unhandled" enabled="true"></check>
+   </group>
+   <group name="UNION" enabled="true">
+    <check name="UNION-overlap-assign" enabled="true"></check>
+    <check name="UNION-type-punning" enabled="true"></check>
+   </group>
+  </package>
+ </checks_tree>
+</cstat_settings>
