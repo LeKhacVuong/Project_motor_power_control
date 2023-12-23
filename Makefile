@@ -14,7 +14,7 @@ SRCS:=board/board.c
 SRCS+=service/host_master/host_master.c
 SRCS+=service/sm_modbus_master.c	
 SRCS+=libs/nanoModbus/nanomodbus.c	
-	
+SRCS+=LCD/lkv_lcd.c
 SRCS+=util/string/string_util.c \
 	util/crc/crc.c
 	
@@ -26,6 +26,8 @@ INCLUDES:=app/cabinet_app \
 
 INCLUDES+=service
 INCLUDES+=service/host_master
+             
+INCLUDES+=LCD
              
 	
 INCLUDES+= util/string \
